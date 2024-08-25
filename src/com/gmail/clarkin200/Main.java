@@ -13,6 +13,9 @@ public class Main {
         double celsius = sc.nextDouble();
         System.out.println("Enter fahrenheit value to celsius");
         double fahrenheit = sc.nextDouble();
+    }
 
+    public static double convFahrToCels(double fahrenheit) {
+        return (fahrenheit - 32) * 5 / 9;
     }
 }
